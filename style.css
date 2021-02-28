@@ -27,9 +27,9 @@ a:active{
     color: greenyellow;
 }
 
-a:visited{
+/* a:visited{
     /* color: blueviolet; */
-}
+
 
 .container{
     width: 80%;
@@ -49,6 +49,11 @@ a:visited{
     color: #fff;
 
 }
+
+.clr {
+    clear: both;
+}
+
 
 .box-1{
     background-color: #333;
@@ -135,3 +140,74 @@ border-radius: 15px;
     width: 100%;
 }
 
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc ;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#side-block{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff ;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('../hello-world/images/back-css.jpg');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center ;
+
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+
+}
+
+.my-list li:first-child{
+    background: red;
+}
+.my-list li:last-child{
+    background:blue;
+}
+
+.my-list li:nth-child(5){
+    background: chartreuse;
+}
+
+.my-list li:nth-child(even){
+    background: goldenrod;
+}
